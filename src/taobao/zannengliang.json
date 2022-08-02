@@ -1,0 +1,176 @@
+{
+    "activity":{
+
+        "tip":"请在网络好的地方执行\n有些任务可能失败 需要手动\n",
+        "list":[
+                
+                "❤️淘宝-超级争霸赛 更新2022-05-24❤️",
+                "设置多账号|自动化",
+                "任务入口",
+                "饿了么红包",
+                "助力.交流 qq群"
+            
+              
+                
+            ],
+        "mapping" :{
+            "助力.交流 qq群":{
+                "list":[
+                     "交流·反馈 qq群",
+                     "618助力群"
+                ],
+                "mapping":{
+                    "交流·反馈 qq群":{
+                        "url":"mqqapi://card/show_pslcard?src_type=internal&version=1&uin=560582502&card_type=group&source=qrcode"
+                    },
+                    "618助力群":{
+                         "url":"mqqapi://card/show_pslcard?src_type=internal&version=1&uin=292599024&card_type=group&source=qrcode"
+                    }
+                }
+            },
+            "设置多账号|自动化":{
+                "tip":"多账号设置 不同APP登录不同账号",
+                "list":[
+                    "淘宝运行---初始形式",
+                    "淘宝+天猫运行",
+                    "淘+天+点淘运行",
+                    "天猫运行",
+                    "点淘运行",
+                    "自动化连接"
+                ],
+                "mapping":{
+                    "淘宝运行---初始形式":{
+                        "type":"set",
+                        "value":"1"
+                    },
+                    "淘宝+天猫运行":{
+                        "type":"set",
+                        "value":"2"
+                    },
+                    "淘+天+点淘运行":{
+                        "type":"set",
+                        "value":"3"
+                        },
+                    "天猫运行":{
+                    "type":"set",
+                    "value":"4"
+                    },
+                    "点淘运行":{
+                        "type":"set",
+                        "value":"5"
+                        },
+                    "自动化连接":{
+                        "type":"copy",
+                        "value":"shortcuts://run-shortcut?name=淘宝-618超级争霸赛浏览任务&input=text&text=run"
+                    }   
+                    
+                    
+                }
+            },
+            "任务入口":{
+                "list":[
+                    "淘宝",
+                    "天猫",
+                    "点淘"
+                ],
+                "mapping":{
+                    "淘宝":{
+                        "url":"taobao://m.tb.cn/h.fsqray4"
+                    },
+                    "天猫":{
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https://m.tb.cn/h.fsqray4"
+                    },
+                    "点淘":{
+                        "url":"taobaoliveshare://m.tb.cn/h.fsqray4"
+                    }
+                }
+                
+            },
+            "交流·反馈 qq群":{
+                        "url":"mqqapi://card/show_pslcard?src_type=internal&version=1&uin=617186271&card_type=group&source=qrcode"
+                    },
+            "美团红包":{
+                "url":"imeituan://www.meituan.com/web?lch=cps:waimai:3:776c2adbab1063dbf7bb27b032eccb42:weixin194:2:80292&url=https%3A%2F%2Fclick.meituan.com%2Ft%3Ft%3D1%26c%3D1%26p%3DOWMpZ-uzIFOVe6JyOONs3dXuqV0qcAf-r-KCvHdXiNeHGrf99tjKfEFmfKD5wE8tIKFZ5trT0sOMBI8PYBI709TQrHSowZ35lT3KWxR5a72vQtwrwa1jUpHSHlsPQ3wBH50kzjqu3xTNw3PB3roiT2P2MWrO42CJ2lWJd7PKSHsq7SN-lPlsxVNr-c3nhOZlzawAIr5UyPJjc9kRfnAhGytXnltosMtnrJ4-9fEOLfYcYn1hYyDi1pO1mZxZYFcHVaTZ7wo6zUcGkJ9ItxKfslK20asctpDoufdkj2gOK66MIO_E0-GFVB9nJtuWIF02y5LhdVrEh5ZhzlUhXuwSs7abZ1dbqqz4iLIK-XMwHWFt8hqiPJDLqN1KPbyuqfK0C-muxSJTCZNQxRHJYI6zQAskG7LvEhXxrmu3vEcbJ4hhFalkXdPf0W5opucJJRXCEr47CL5dm9L95FIVMLqeCJJ5CE_ghZ2nAjHWmMLUIxXFy6IujV9DipHPcMPs8ZmoZ0SpSCfFgFHdEXj0cRllpHsledjfVhcds2gty75ozk5vwCDgaO6ixMXqlH1193CtPpMtUDqH-iLaM2A0gxcmJ3gXk5UWz5vX-oQbH-Yjy0Ql7Mn_OEV_b_qDyBYgyrb7unXIthK-lehqig2yh0Nd0PV85jl3TZYOTtcA3YycoWhilLGW2wcCjY31r1QDkEgP"
+            },
+            "饿了么红包":{
+                "url":"eleme://web?url=https://m.tb.cn/h.fHjEo2X"
+            },
+             "8月2-15支付宝天天领红包":{
+                "url":"alipays://platformapi/startapp?appId=68687715&url=https%3A%2F%2Frender.alipay.com%2Fp%2Fc%2F180020180000047875%2Fpages%2Findex%2Findex.html%3FuserId%3D2088802913327612&userId=2088802913327612&titlePenetrate=YES&chInfo=ch_share__chsub_CopyLink"
+            },
+           
+            "淘特-天天领红包 09-07":{
+                 "url":"taobao://m.tb.cn/h.fcElrTQ"
+            
+            },
+            "美食币活动入口":{
+                "url":"taobao://huodong.m.taobao.com/act/snipcodeupdate.html?_ariver_appid=1000473"
+            },
+            "交流群":{
+                "list":{
+                    "qq":""
+                }
+            },
+            "淘礼金情报群":{
+                "url":"mqqapi://card/show_pslcard?src_type=internal&version=1&uin=596783999&card_type=group&source=qrcode"
+            },
+            
+
+           
+
+            
+            "❤️淘宝-超级争霸赛 更新2022-05-24❤️":{
+                "type":"task",
+                "key":["种树"]
+                
+            }
+            
+            
+            
+        },
+
+        "taskList":["种树"]
+                
+    },
+
+    "taskData":{
+           
+            "tag":"zbs",
+            "common":{
+            "url":"https://jiutiao.coding.net/p/shortcuts/d/updatejson/git/raw/master/auto/common/tb.txt"
+            
+            },
+
+            "种树":{
+                "type":"task1",
+              
+                "endpage": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+                "main":"taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+                "endMessage":"种树任务结束",
+                
+                "task":{
+                    "tag":"zbs",
+                    "scheme":"taobao://m.taobao.com/tbopen/index.html?h5Url=",
+                    "baseurl":"://商品定位.m.tmall.com?deliveryId=占位参数1&sceneId=占位参数4&hd_from_id=占位参数3&fromToken=aR1DJg5c00K9LpnNUeOS9GgikUzUNU7&implId=占位参数2",
+                    "wait":23,
+                    "wait2":"",
+                    "param":{
+                        "商品定位":["nike","anta","adidas","chanel","dior","biotherm","oppo"]
+                    },
+                    "before":[
+                        {"url":"://s.click.taobao.com/t?e=m%3D2%26s%3D08li4iYzqEtw4vFB6t2Z2ueEDrYVVa646aU5mWYV2GpyINtkUhsv0Ogyy2h%2BVzo4sex2YzirA1tTTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBwvSBaztLHip82kntfD1b2jVZEtX0v4VDbptmeGW8Qbjwm6KNJaO54uU8VopE7Rivxg5p7bh%2BFbQ%3D&union_lens=lensId%3AOPT%401653826139%40a392be2c-ce7f-4be7-9ef0-f76360fe459a_673591364626%401","wait":5},{"url":"://s.click.taobao.com/t?e=m%3D2%26s%3D9pj6EwZBhwRw4vFB6t2Z2ueEDrYVVa64NJKoJjxtY1FyINtkUhsv0Ogyy2h%2BVzo4r6wcFjp7M81TTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBwvSBaztLHipJZui1zwGkgYRfYAOzDqTHK8ZXF6ymDmK456hed%2BUvzsYl7w3%2FA2kb&union_lens=lensId%3AOPT%401653826393%40501167cb-2e7b-4e70-9524-9d19c5355ed8_614138274252%401","wait":5},{"url":"://s.click.taobao.com/t?e=m%3D2%26s%3DQer%2F%2FDBaVE1w4vFB6t2Z2ueEDrYVVa646aU5mWYV2GpyINtkUhsv0Ogyy2h%2BVzo4r6wcFjp7M81TTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBwvSBaztLHiozdB8eY2LuKr%2BBN0CmRnBd2KXobxhs0f7wOR51emjQw7UaqOH127ZE&union_lens=lensId%3AOPT%401653826393%40501167cb-2e7b-4e70-9524-9d19c5355ed8_584527124719%401","wait":5},{"url":"://s.click.taobao.com/t?e=m%3D2%26s%3DlLDjJFPlqEhw4vFB6t2Z2ueEDrYVVa646aU5mWYV2GpyINtkUhsv0Ogyy2h%2BVzo4Cluxo6ZJ%2F%2BNTTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBwvSBaztLHio2eP%2FSDPH9jJk0M2b8wmjS4x6ii2uzDCk6A8DVGNvC3AeBfuEYm6Av&union_lens=lensId%3AOPT%401653826444%4034c646f8-1bee-432f-92ae-503ca49ee67d_600515195760%401","wait":5},{"url":"://s.click.taobao.com/t?e=m%3D2%26s%3DHe%2FDBmY8%2Ff9w4vFB6t2Z2ueEDrYVVa646aU5mWYV2GpyINtkUhsv0Ogyy2h%2BVzo4Cluxo6ZJ%2F%2BNTTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBwvSBaztLHirFM6hxgw2KFC9lrS57UwA608TC8rEy2O8IxYQ82RQiR2oqORGP9Y2bxg5p7bh%2BFbQ%3D&union_lens=lensId%3AOPT%401653826444%4034c646f8-1bee-432f-92ae-503ca49ee67d_654383256085%401","wait":5},{"url":"://s.click.taobao.com/t?e=m%3D2%26s%3DNdnHDrXXgKlw4vFB6t2Z2ueEDrYVVa646aU5mWYV2GpyINtkUhsv0Ogyy2h%2BVzo4ihMekbd4ko5TTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBwvSBaztLHiog8EZ3wGc43i2D9L3NFPaKsShUjNLx%2BdtEi%2BtP%2FRzWoXAluuKClIymxg5p7bh%2BFbQ%3D&union_lens=lensId%3AOPT%401653826536%40e314e534-a2cb-4ada-a9cb-b9db423b71fd_655802610765%401","wait":5},{"url":"://s.click.taobao.com/t?e=m%3D2%26s%3DSPIRyBkK0y9w4vFB6t2Z2ueEDrYVVa646aU5mWYV2GpyINtkUhsv0Ogyy2h%2BVzo4MwAloxHdNFJTTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBwvSBaztLHirvdt17NnwWNtY1Nepvmk9a1hjz2dNwkcTigB1rJSTiDIIsUVnEP8tnxg5p7bh%2BFbQ%3D&union_lens=lensId%3AOPT%401653826580%40ed321874-47ee-414a-a745-69c6e630be5d_644004036506%401","wait":5},{"url":"://s.click.taobao.com/t?e=m%3D2%26s%3DxrvcJAhsRM9w4vFB6t2Z2ueEDrYVVa646aU5mWYV2GpyINtkUhsv0Ogyy2h%2BVzo4mMFUJNcvBK9TTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBwvSBaztLHiqhC27CPXMhvLnPZ%2FPSJgtkbptmeGW8QbjS1sPCJIonkuUiXMssNPSPxg5p7bh%2BFbQ%3D&union_lens=lensId%3AOPT%401653826682%40850946f0-78da-4870-ace7-a4ed28bc65a1_644462085972%401","wait":5},{"url":"://s.click.taobao.com/t?e=m%3D2%26s%3DNrktbjqkVfRw4vFB6t2Z2ueEDrYVVa646aU5mWYV2GpyINtkUhsv0Ogyy2h%2BVzo4Vmg8SORgY9FTTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBwvSBaztLHiqyyxPUa9XgLmpOMAxifFhoIcR1QFwJ2BY8Ys4X39uIecmpppjgz13R&union_lens=lensId%3AOPT%401653826709%4031fc41b8-2b8e-4247-a204-d681f83ec406_596819074124%401","wait":5},{"url":"://s.click.taobao.com/t?e=m%3D2%26s%3D1loFz6qG5sZw4vFB6t2Z2ueEDrYVVa646aU5mWYV2GpyINtkUhsv0Ogyy2h%2BVzo4bwEC5trdwuVTTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBwvSBaztLHipUNM8az5ZeGM2UpoLAFE4wkVn6LEMKDD8aIR1DejrZv89kxRRHfUqm&union_lens=lensId%3AOPT%401653826751%40431b1504-8af5-4af2-80e5-18498bbf7b13_670026546638%401","wait":5}
+                    ],
+                    "item":[
+
+                        
+                            "sceneId=3423&hd_from_id=100157&deliveryId=27996&implId=other_0_886019_27996_0"
+
+
+                        ]
+                }
+            }
+
+
+
+    }
+}

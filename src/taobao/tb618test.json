@@ -1,0 +1,252 @@
+{
+    "tag":"tm618",
+    "activity":{
+
+        "tip":"出现了一点问题，我测测再开放，抱歉\n",
+        "list":[
+              
+                "运行任务",
+                "设置多账号|自动化",
+                "任务入口",
+                "饿了么红包",
+                "助力.交流 qq群"
+            
+              
+                
+            ],
+        "mapping" :{
+
+            "开始任务":{
+                            "type":"task",
+                            "key":["种树"]
+                    },
+            "设置多账号|自动化":{
+                "tip":"多账号设置 不同APP登录不同账号",
+                "list":[
+                    "淘宝运行---初始形式",
+                    "淘宝+天猫运行",
+                    "淘+天+点淘运行",
+                    "天猫运行",
+                    "点淘运行",
+                    "自动化连接"
+                ],
+                "mapping":{
+                    "淘宝运行---初始形式":{
+                        "type":"set",
+                        "value":"1"
+                    },
+                    "淘宝+天猫运行":{
+                        "type":"set",
+                        "value":"2"
+                    },
+                    "淘+天+点淘运行":{
+                        "type":"set",
+                        "value":"3"
+                        },
+                    "天猫运行":{
+                    "type":"set",
+                    "value":"4"
+                    },
+                    "点淘运行":{
+                        "type":"set",
+                        "value":"5"
+                        },
+                    "自动化连接":{
+                        "type":"copy",
+                        "value":"shortcuts://run-shortcut?name=淘宝-618喵运会自动任务&input=text&text=run"
+                    }   
+                    
+                    
+                }
+            },
+            "任务入口":{
+                "list":[
+                    "淘宝",
+                    "天猫",
+                    "点淘"
+                ],
+                "mapping":{
+                    "淘宝":{
+                        "url":"taobao://pages.tmall.com/wow/z/hdwk/20220618/gamehome?disableNav=YES"
+                    },
+                    "天猫":{
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https%3A%2F%2Fpages.tmall.com%2Fwow%2Fz%2Fhdwk%2F20220618%2Fgamehome%3FdisableNav%3DYES"
+                    },
+                    "点淘":{
+                        "url":"taobaoliveshare://pages.tmall.com/wow/z/hdwk/20220618/gamehome?disableNav=YES"
+                    }
+                }
+                
+            },
+            "助力.交流 qq群":{
+                "list":[
+                     "交流·反馈 qq群",
+                     "618助力群"
+                ],
+                "mapping":{
+                    "交流·反馈 qq群":{
+                        "url":"mqqapi://card/show_pslcard?src_type=internal&version=1&uin=560582502&card_type=group&source=qrcode"
+                    },
+                    "618助力群":{
+                         "url":"mqqapi://card/show_pslcard?src_type=internal&version=1&uin=292599024&card_type=group&source=qrcode"
+                    }
+                }
+            },
+            
+            "美团红包":{
+                "url":"imeituan://www.meituan.com/web?lch=cps:waimai:3:776c2adbab1063dbf7bb27b032eccb42:weixin194:2:80292&url=https%3A%2F%2Fclick.meituan.com%2Ft%3Ft%3D1%26c%3D1%26p%3DOWMpZ-uzIFOVe6JyOONs3dXuqV0qcAf-r-KCvHdXiNeHGrf99tjKfEFmfKD5wE8tIKFZ5trT0sOMBI8PYBI709TQrHSowZ35lT3KWxR5a72vQtwrwa1jUpHSHlsPQ3wBH50kzjqu3xTNw3PB3roiT2P2MWrO42CJ2lWJd7PKSHsq7SN-lPlsxVNr-c3nhOZlzawAIr5UyPJjc9kRfnAhGytXnltosMtnrJ4-9fEOLfYcYn1hYyDi1pO1mZxZYFcHVaTZ7wo6zUcGkJ9ItxKfslK20asctpDoufdkj2gOK66MIO_E0-GFVB9nJtuWIF02y5LhdVrEh5ZhzlUhXuwSs7abZ1dbqqz4iLIK-XMwHWFt8hqiPJDLqN1KPbyuqfK0C-muxSJTCZNQxRHJYI6zQAskG7LvEhXxrmu3vEcbJ4hhFalkXdPf0W5opucJJRXCEr47CL5dm9L95FIVMLqeCJJ5CE_ghZ2nAjHWmMLUIxXFy6IujV9DipHPcMPs8ZmoZ0SpSCfFgFHdEXj0cRllpHsledjfVhcds2gty75ozk5vwCDgaO6ixMXqlH1193CtPpMtUDqH-iLaM2A0gxcmJ3gXk5UWz5vX-oQbH-Yjy0Ql7Mn_OEV_b_qDyBYgyrb7unXIthK-lehqig2yh0Nd0PV85jl3TZYOTtcA3YycoWhilLGW2wcCjY31r1QDkEgP"
+            },
+            
+            "饿了么红包":{
+                "type":"urlarr",
+                "arr":[
+                    "eleme://web?url=https%3A%2F%2Ftb.ele.me%2Fwow%2Falsc%2Fmod%2Fd5275789de46503ba0908a9d%3Fe%3D1%26open_type%3Dminiapp%26inviterId%3Dd5e4ad22%26actId%3D1%26_ltracker_f%3Dhjb_app_grzx%26chInfo%3Dch_app_chsub_Photo"
+                    
+                ],
+                "wait":5,
+                "endpage":"eleme://web?url=https://m.tb.cn/h.fHjEo2X"
+            },
+            
+           
+            "淘礼金情报群":{
+                "url":"mqqapi://card/show_pslcard?src_type=internal&version=1&uin=596783999&card_type=group&source=qrcode"
+            },
+            
+
+           "运行任务":{
+               "tip":"正常模式是平时用的直接运行\n优点是方便支持多账号，自动化\n-----------------------\n cookie模式是用自己的数据跑任务\n优点是过风险检测\n-----------------------\n不会取cookie的点下面的获取cookie\n-----------------------\n使用cookie模式请确保下载捷径的途径是安全的",
+               "list":[
+                    "填写COOKIE开始运行",
+                    "取cookie教程"
+                ],
+                "mapping":{
+                     "运行正常模式，支持多账号":{
+                            "type":"task",
+                            "key":["种树"]
+                    },
+                    "填写COOKIE开始运行":{
+                        "type":"cookie"
+                    },
+                    "取cookie教程":{
+                        "url":"https://docs.qq.com/doc/DTGNaZktBWXpFb2l2"
+                    }
+                }
+           },
+
+            
+           
+            
+            
+            
+        },
+
+        "taskList":["种树"]
+                
+    },
+    
+
+    "taskData":{
+           
+            "tag":"tb618",
+            "common":{
+            "url":"https://jiutiao.coding.net/p/shortcuts/d/updatejson/git/raw/master/auto/common/tb.txt",
+            "c":"https://jiutiao.coding.net/p/shortcuts/d/updatejson/git/raw/master/auto/common/tbck.txt",
+            
+            },
+
+            "种树":{
+                "type":"task1",
+              
+                "endpage": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+                "main":"taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+                "endMessage":"种树任务结束",
+                
+                "task":{
+                    "tag":"tb618",
+                    "scheme":"taobao://m.taobao.com/tbopen/index.html?h5Url=",
+                    "baseurl":"://商品定位.m.tmall.com?deliveryId=占位参数1&sceneId=3399&hd_from_id=100155&fromToken=eP1w8QGUOexjRMbZu8DKHMgpc6UGUgUXUJ&implId=占位参数2",
+                    "ckurl":"://商品定位.m.tmall.com?sceneId=3399&hd_from_id=100155",
+                    "ckitemUrl":"://商品定位.m.tmall.com?deliveryId=占位参数1&sceneId=3399&hd_from_id=100155&implId=占位参数2",
+                    "wait":23,
+                    "wait2":"",
+                    "param":{
+                        "商品定位":["nike","anta","adidas","chanel","dior","biotherm","oppo"]
+                    },
+                    "before":[
+                     
+                    ],
+                    "ckItem":[
+                            "29239 cloudsail_3_311044501680001_29239_0",
+                            "29239 cloudsail_3_311044501680001_29239_1",
+                            "29239 cloudsail_3_311044501680001_29239_2",
+                            "29240 cloudsail_3_315329004640001_29240_0",
+                            "29240 cloudsail_3_315329004640001_29240_1",
+                            "29240 cloudsail_3_315329004640001_29240_2",
+                            "29240 cloudsail_3_315329004640001_29240_3",
+                            "29240 cloudsail_3_315329004640001_29240_4",
+                            "29240 cloudsail_3_315329004640001_29240_5",
+                            
+                    ],
+                    "outItem":["28228","28050","28646"],
+                    "item":[
+
+                            "28050 other_19_0_28050_0",
+                            "28572 cloudsail_12_315638503100001_28572_0",
+                            "28572 cloudsail_12_315638503100001_28572_1",
+                            "28572 cloudsail_12_315638503100001_28572_2",
+                            "28572 cloudsail_12_315638503100001_28572_3",
+                            "28572 cloudsail_12_315638503100001_28572_4",
+                            "28572 cloudsail_12_315638503100001_28572_5",
+                            "28572 cloudsail_12_315638503100001_28572_6",
+                            "28572 cloudsail_12_315638503100001_28572_7",
+                            "28572 cloudsail_12_315638503100001_28572_8",
+                            "28572 cloudsail_12_315638503100001_28572_9",
+
+                            "27927 other_22_902029_27927_0",
+                            "28051 other_0_912001_28051_0",
+
+                            "28336 other_0_1_28336_0",
+                            "29068 other_3_928009_29068_0",
+                            "28042 other_19_889017_28042_0",
+                            "28041 other_0_903001_28041_0",
+                           
+
+
+                            "29016 other_22_926011_29016_0",
+                            "28058 other_19_918001_28058_0",
+                            "29268 other_12_911022_29268_10",
+
+                            "29239 cloudsail_3_311044501680001_29239_0",
+                            "29239 cloudsail_3_311044501680001_29239_1",
+                            "29239 cloudsail_3_311044501680001_29239_2",
+                            
+
+                            "29240 cloudsail_3_315329004640001_29240_0",
+                            "29240 cloudsail_3_315329004640001_29240_1",
+                            "29240 cloudsail_3_315329004640001_29240_2",
+                            "29240 cloudsail_3_315329004640001_29240_3",
+                            "29240 cloudsail_3_315329004640001_29240_4",
+                            "29240 cloudsail_3_315329004640001_29240_5",
+                            "29018 other_6_0_29018_0",
+                            "28048 other_0_897002_28048_0",
+                            "28860 ald.res.19312519_10_170084_28860_0",
+                            "28053 other_0_914001_28053_0",
+                            "ald.res.19312519_10_170084_28860_0",
+                            "28056 other_20_916001_28056_0",
+                            "28861 ald.res.19312519_10_170086_28861_0"
+                            
+
+
+                        ],
+                        
+                }
+            }
+
+
+
+    },
+    "urlArr":[
+        
+    ]
+    
+}

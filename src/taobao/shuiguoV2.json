@@ -1,0 +1,222 @@
+{
+    "activity":{
+
+        "tip":"请在网络好的地方执行\n有些任务可能失败 需要手动\n",
+        "list":[
+                
+                "❤️淘宝-芭芭农场 更新2022-05-23❤️",
+                "设置多账号|自动化",
+                "活动入口",
+                "美团红包",
+                "饿了么红包",
+                "交流·反馈 qq群"
+            
+              
+                
+            ],
+        "mapping" :{
+            "设置多账号|自动化":{
+                "tip":"多账号设置 不同APP登录不同账号",
+                "list":[
+                    "淘宝运行---初始形式",
+                    "淘宝+天猫运行",
+                    "淘+天+点淘运行",
+                    "天猫运行",
+                    "点淘运行",
+                    "自动化连接"
+                ],
+                "mapping":{
+                    "淘宝运行---初始形式":{
+                        "type":"set",
+                        "value":"1"
+                    },
+                    "淘宝+天猫运行":{
+                        "type":"set",
+                        "value":"2"
+                    },
+                    "淘+天+点淘运行":{
+                        "type":"set",
+                        "value":"3"
+                        },
+                    "天猫运行":{
+                    "type":"set",
+                    "value":"4"
+                    },
+                    "点淘运行":{
+                        "type":"set",
+                        "value":"5"
+                        },
+                    "自动化连接":{
+                        "type":"copy",
+                        "value":"shortcuts://run-shortcut?name=淘宝-芭芭农场任务&input=text&text=run"
+                    }   
+                    
+                    
+                }
+            },
+            "活动入口":{
+                "list":[
+                    "淘宝-只能天猫淘宝进入",
+                    "天猫"
+                ],
+                "mapping":{
+                    "淘宝":{
+                        "url":"taobao://pages.tmall.com/wow/hdwk/act/2020nhj-single?wh_biz=tm&disableNav=YES&disableProgress=YES&checkJump=true"
+                    },
+                    "天猫":{
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https%3A%2F%2Fpages.tmall.com%2Fwow%2Fhdwk%2Fact%2F2020nhj-single%3Fwh_biz%3Dtm%26disableNav%3DYES%26disableProgress%3DYES%26checkJump%3Dtrue"
+                    },
+                    "点淘":{
+                        "url":"taobaoliveshare://pages.tmall.com/wow/hdwk/act/2020nhj-single?wh_biz=tm&disableNav=YES&disableProgress=YES&checkJump=true"
+                    }
+                }
+                
+            },
+            "交流·反馈 qq群":{
+                        "url":"mqqapi://card/show_pslcard?src_type=internal&version=1&uin=617186271&card_type=group&source=qrcode"
+                    },
+            "美团红包":{
+                "url":"imeituan://www.meituan.com/web?lch=cps:waimai:3:776c2adbab1063dbf7bb27b032eccb42:weixin194:2:80292&url=https%3A%2F%2Fclick.meituan.com%2Ft%3Ft%3D1%26c%3D1%26p%3DOWMpZ-uzIFOVe6JyOONs3dXuqV0qcAf-r-KCvHdXiNeHGrf99tjKfEFmfKD5wE8tIKFZ5trT0sOMBI8PYBI709TQrHSowZ35lT3KWxR5a72vQtwrwa1jUpHSHlsPQ3wBH50kzjqu3xTNw3PB3roiT2P2MWrO42CJ2lWJd7PKSHsq7SN-lPlsxVNr-c3nhOZlzawAIr5UyPJjc9kRfnAhGytXnltosMtnrJ4-9fEOLfYcYn1hYyDi1pO1mZxZYFcHVaTZ7wo6zUcGkJ9ItxKfslK20asctpDoufdkj2gOK66MIO_E0-GFVB9nJtuWIF02y5LhdVrEh5ZhzlUhXuwSs7abZ1dbqqz4iLIK-XMwHWFt8hqiPJDLqN1KPbyuqfK0C-muxSJTCZNQxRHJYI6zQAskG7LvEhXxrmu3vEcbJ4hhFalkXdPf0W5opucJJRXCEr47CL5dm9L95FIVMLqeCJJ5CE_ghZ2nAjHWmMLUIxXFy6IujV9DipHPcMPs8ZmoZ0SpSCfFgFHdEXj0cRllpHsledjfVhcds2gty75ozk5vwCDgaO6ixMXqlH1193CtPpMtUDqH-iLaM2A0gxcmJ3gXk5UWz5vX-oQbH-Yjy0Ql7Mn_OEV_b_qDyBYgyrb7unXIthK-lehqig2yh0Nd0PV85jl3TZYOTtcA3YycoWhilLGW2wcCjY31r1QDkEgP"
+            },
+            "饿了么红包":{
+                "url":"eleme://web?url=https://m.tb.cn/h.fuZVm50"
+            },
+             "8月2-15支付宝天天领红包":{
+                "url":"alipays://platformapi/startapp?appId=68687715&url=https%3A%2F%2Frender.alipay.com%2Fp%2Fc%2F180020180000047875%2Fpages%2Findex%2Findex.html%3FuserId%3D2088802913327612&userId=2088802913327612&titlePenetrate=YES&chInfo=ch_share__chsub_CopyLink"
+            },
+           
+            "淘特-天天领红包 09-07":{
+                 "url":"taobao://m.tb.cn/h.fcElrTQ"
+            
+            },
+            "美食币活动入口":{
+                "url":"taobao://huodong.m.taobao.com/act/snipcodeupdate.html?_ariver_appid=1000473"
+            },
+            "交流群":{
+                "list":{
+                    "qq":""
+                }
+            },
+            "淘礼金情报群":{
+                "url":"mqqapi://card/show_pslcard?src_type=internal&version=1&uin=596783999&card_type=group&source=qrcode"
+            },
+            
+
+           
+
+            
+            "❤️淘宝-芭芭农场 更新2022-05-23❤️":{
+                "type":"task",
+                "key":["种树"]
+                
+            }
+            
+            
+            
+        },
+
+        "taskList":["种树"]
+                
+    },
+
+    "taskData":{
+           
+            "tag":"taobaonongchang",
+            "common":{
+            "url":"https://jiutiao.coding.net/p/shortcuts/d/updatejson/git/raw/master/auto/common/tb.txt"
+            
+            },
+
+            "种树":{
+                "type":"task1",
+              
+                "endpage": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+                "main":"taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+                "endMessage":"种树任务结束",
+                
+                "task":{
+                    "tag":"taobaonongchang",
+                    "scheme":"taobao://m.taobao.com/tbopen/index.html?h5Url=",
+                    "baseurl":"://商品定位.m.tmall.com?deliveryId=占位参数1&sceneId=占位参数4&hd_from_id=占位参数3&fromToken=aR1DJg5c00K9LpnNUeOS9GgikUzUNU7&implId=占位参数2",
+                    "wait":23,
+                    "wait2":"",
+                    "param":{
+                        "商品定位":["nike","anta","adidas","chanel","dior","biotherm","oppo"]
+                    },
+                    "before":[
+                      {
+                          "url":"://pages.tmall.com/wow/tmallfarm/act/b-browser?wh_biz=tm&spm=farm.newfarm.task.browser&disableNav=YES",
+                          "wait":23
+                      }
+                    ],
+                    "item":[
+
+                        
+
+                        "7932 linked_512_2_7932_0 100085 971",
+                        "17065 other_273_1_17065_0 100085 971",
+                        "12322 expo_512_326009_12322_0 100085 971",
+                        "12322 expo_512_326009_12322_1 100085 971",
+                        "12322 expo_512_326009_12322_2 100085 971",
+                        "12080 other_499_633010_12080_0 100085 971",
+                        "18501 other_499_652011_18501_0 100085 971",
+                        "16868 other_499_440001_16868_0 100085 971",
+                        "8349 other_497_0_8349_0 100085 971",
+                        "24478 other_156_1_24478_0 100085 971",
+                        "10946 other_499_703018_10946_0 100085 971",
+
+                        "18501 other_499_635005_18501_0 100085 971",
+
+                        "16847 other_285_424002_16847_0 100085 971",
+
+                        "12585 expo_512_123083_12585_0 100085 971",
+                        "15891 other_499_398011_15891_0 100085 971",
+                        "8479 other_499_68006_8479_0 100085 971",
+                        "17147 other_0_426002_17147_0 100085 971",
+
+                        "7936 cloudsail_512_4107026768_7936_0 100085 971",
+
+                        "21346 cloudsail_167_4107026768_21346_0 100085 971",
+                        "25517 cloudsail_481_-1092953834_25517_0 100085 971",
+                        "21346 cloudsail_167_125400501040001_21346_0 100085 971",
+                        "17734 cloudsail_252_125400501040001_17734_0 100085 971",
+
+                        "12481 expo_499_123084_12481_0 100085 971",
+                        "12481 expo_499_123084_12481_1 100085 971",
+                        "12585 expo_512_123083_12585_0 100085 971",
+                        "27481 other_52_884003_27481_0 100085 971",
+
+
+
+
+                        "21303 linked_119_0_21303_0 100085 2488",
+                        "21316 other_462_609011_21316_0 100085 2488",
+                        "21316 other_462_609011_21316_1 100085 2488",
+                        "21316 other_462_609011_21316_2 100085 2488",
+
+                        "21252 other_120_614010_21252_0 100085 2488",
+                        "20668 other_133_589009_20668_0 100085 2488",
+                        "21318 other_449_583009_21318_0 100085 2488",
+
+
+
+                        "9046 other_0_0_9046_0 100085 978",
+                        "8015 other_213_0_8015_0 100085 978",
+                        "8016 other_0_105008_8016_0 100085 978",
+                        "8950 other_0_98013_8950_0 100085 978",
+                        "8950 other_0_98013_8950_1 100085 978",
+                        "8950 other_0_98013_8950_2 100085 978",
+                        "10386 other_0_100016_10386_0 100085 978",
+                        "10385 other_0_100015_10385_0 100085 978",
+                        "8855 other_0_68018_8855_0 100085 978"
+
+
+
+                        ]
+                }
+            }
+
+
+
+    }
+}

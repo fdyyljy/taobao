@@ -1,0 +1,162 @@
+{
+    "activity":{
+
+      "tip":"请在网络好的地方执行\n有些任务可能失败 需要手动\n有些任务需要饿了么账号绑定淘宝\n不做可以不用管\n\n",
+      "list":[
+        "❤️饿了么自动领豆 更新2022-07-11❤️",
+        "设置多账号|自动化",
+        "美团红包",
+        "饿了么红包",
+        "交流·反馈 qq群"
+
+
+      ],
+      "mapping" :{
+        "设置多账号|自动化":{
+            "tip":"多账号设置 不同APP登录不同账号",
+            "list":[
+                "饿了么运行---初始形式",
+                "饿了么+淘宝运行",
+                "饿+支付宝运行",
+                "饿+淘+支付宝运行",
+                "支付宝运行",
+                "淘宝运行",
+                "自动化连接"
+            ],
+            "mapping":{
+                "饿了么运行---初始形式":{
+                    "type":"set",
+                    "value":"1"
+                },
+                "饿了么+淘宝运行":{
+                    "type":"set",
+                    "value":"2"
+                },
+                "饿+淘+支付宝运行":{
+                    "type":"set",
+                    "value":"3"
+                },
+                "支付宝运行":{
+                    "type":"set",
+                    "value":"4"
+                },
+                "淘宝运行":{
+                    "type":"set",
+                    "value":"5"
+                },
+                "饿+支付宝运行":{
+                    "type":"set",
+                    "value":"6"
+                },
+                "自动化连接":{
+                    "type":"copy",
+                    "value":"shortcuts://run-shortcut?name=饿了么自动领吃货豆&input=text&text=run"
+                }
+            }
+        },
+        "美团红包":{
+          "url":"imeituan://www.meituan.com/web?lch=cps:waimai:3:776c2adbab1063dbf7bb27b032eccb42:weixin194:2:80292&url=https%3A%2F%2Fclick.meituan.com%2Ft%3Ft%3D1%26c%3D1%26p%3DOWMpZ-uzIFOVe6JyOONs3dXuqV0qcAf-r-KCvHdXiNeHGrf99tjKfEFmfKD5wE8tIKFZ5trT0sOMBI8PYBI709TQrHSowZ35lT3KWxR5a72vQtwrwa1jUpHSHlsPQ3wBH50kzjqu3xTNw3PB3roiT2P2MWrO42CJ2lWJd7PKSHsq7SN-lPlsxVNr-c3nhOZlzawAIr5UyPJjc9kRfnAhGytXnltosMtnrJ4-9fEOLfYcYn1hYyDi1pO1mZxZYFcHVaTZ7wo6zUcGkJ9ItxKfslK20asctpDoufdkj2gOK66MIO_E0-GFVB9nJtuWIF02y5LhdVrEh5ZhzlUhXuwSs7abZ1dbqqz4iLIK-XMwHWFt8hqiPJDLqN1KPbyuqfK0C-muxSJTCZNQxRHJYI6zQAskG7LvEhXxrmu3vEcbJ4hhFalkXdPf0W5opucJJRXCEr47CL5dm9L95FIVMLqeCJJ5CE_ghZ2nAjHWmMLUIxXFy6IujV9DipHPcMPs8ZmoZ0SpSCfFgFHdEXj0cRllpHsledjfVhcds2gty75ozk5vwCDgaO6ixMXqlH1193CtPpMtUDqH-iLaM2A0gxcmJ3gXk5UWz5vX-oQbH-Yjy0Ql7Mn_OEV_b_qDyBYgyrb7unXIthK-lehqig2yh0Nd0PV85jl3TZYOTtcA3YycoWhilLGW2wcCjY31r1QDkEgP"
+        },
+        "饿了么红包":{
+          "url":"eleme://web?url=https://m.tb.cn/h.fuZVm50"
+        },
+        "8月2-15支付宝天天领红包":{
+          "url":"alipays://platformapi/startapp?appId=68687715&url=https%3A%2F%2Frender.alipay.com%2Fp%2Fc%2F180020180000047875%2Fpages%2Findex%2Findex.html%3FuserId%3D2088802913327612&userId=2088802913327612&titlePenetrate=YES&chInfo=ch_share__chsub_CopyLink"
+        },
+        "饿了么红包2 两个红包不同，都可领":{
+          "url":"eleme://web?url=https://h5.ele.me/ant/qrcode%3Fopen_type%3Dminiapp%26url_id%3D35%26inviterId%3D2200cb%26_ltracker_f%3Dtjyj_app_fuceng"
+        },
+        "交流·反馈 qq群":{
+          "url":"mqqapi://card/show_pslcard?src_type=internal&version=1&uin=617186271&card_type=group&source=qrcode"
+        },
+        "淘礼金情报群":{
+          "url":"mqqapi://card/show_pslcard?src_type=internal&version=1&uin=596783999&card_type=group&source=qrcode"
+        },
+
+        "❤️饿了么自动领豆 更新2022-07-11❤️":{
+          "type":"task",
+          "key":["饿了么自动领豆"]
+        }
+
+
+      },
+      "taskList":["饿了么自动领豆"]
+    },
+    "taskData":{
+        "tag":"eleme",
+        "common":{
+            "url":"https://jiutiao.coding.net/p/shortcuts/d/updatejson/git/raw/master/auto/common/e.txt"
+            
+        },
+        
+      "饿了么自动领豆":{
+        "endpage": "eleme://web?url=https://m.tb.cn/h.fuZVm50",
+        "main": "eleme://home",
+
+
+        "task":{
+          "tag":"elemeConfig",
+          "scheme":"eleme://web?url=",
+          "baseurl":"https://service.sh.apigw.tencentcs.com/release/el?type=PAGEVIEW&id=占位参数1&mid=占位参数2",
+          "wait":5,
+          "param":{
+            "随机参数1":[999,888,777]
+          },
+          "before":[
+
+            {"url":"https://tb.ele.me/wow/alsc/mod/d5275789de46503ba0908a9d?e=1&open_type=miniapp&inviterId=d5e4ad22&actId=1&_ltracker_f=hjb_app_grzx&chInfo=ch_app_chsub_Photo","wait":5},
+            {"url":"https://m.tb.cn/h.fuZVm50","wait":7}
+
+          ],
+          "item":[
+
+
+            "6518002 36 P",
+            "4926001 36 P",
+            "476001 36 P",
+            "6240001 36 P",
+            "5500002 36 P",
+            "3780001 36 P",
+
+
+
+            "3030001 170 S",
+         
+            "234001 36 S",
+
+            
+            "1150001 36 S",
+            "4098001 36 S",
+            "4242001 36 S",
+            "4206001 36 S",
+            "4192001 36 S",
+            "4182001 36 S",
+
+            "4642001 36 S",
+            "4708001 36 S",
+            "4702001 36 S",
+            "4932001 36 S",
+            "4648001 36 S",
+            "4970001 36 S",
+            "3500001 36 S",
+            "5458001 36 S",
+            "6478001 36 S",
+            "6492001 36 S",
+           
+         
+            
+
+            "4506001 95 P",
+            "3062001 95 P",
+            "6130001 95 P",
+            
+            
+           
+
+          ]
+        }
+      }
+
+
+    }
+  }

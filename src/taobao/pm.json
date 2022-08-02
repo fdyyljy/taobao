@@ -1,0 +1,174 @@
+{
+    "activity":{
+
+        "tip":"请在网络好的地方执行\n有些任务可能失败 需要手动\n",
+        "list":[
+                
+                "❤️拍卖币 更新2022-07-11❤️",
+                
+                "饿了么红包",
+                "拼团团-欢迎点击",
+                "助力.交流 qq群",
+
+                "设置多账号|自动化",
+                "活动入口",
+            
+              
+                
+            ],
+        "mapping" :{
+            "拼团团-欢迎点击":{
+                        "url":"weixin://dl/business/?t=dtsTWFnDtpb"
+                    },
+            "设置多账号|自动化":{
+                "tip":"多账号设置 不同APP登录不同账号",
+                "list":[
+                    "淘宝运行---初始形式",
+                    "淘宝+天猫运行",
+                    "淘+天+点淘运行",
+                    "天猫运行",
+                    "点淘运行",
+                    "自动化连接"
+                ],
+                "mapping":{
+                    
+                    "淘宝运行---初始形式":{
+                        "type":"set",
+                        "value":"1"
+                    },
+                    "淘宝+天猫运行":{
+                        "type":"set",
+                        "value":"2"
+                    },
+                    "淘+天+点淘运行":{
+                        "type":"set",
+                        "value":"3"
+                        },
+                    "天猫运行":{
+                    "type":"set",
+                    "value":"4"
+                    },
+                    "点淘运行":{
+                        "type":"set",
+                        "value":"5"
+                        },
+                    "自动化连接":{
+                        "type":"copy",
+                        "value":"shortcuts://run-shortcut?name=淘宝-拍卖任务换礼品&input=text&text=run"
+                    }   
+                    
+                    
+                }
+            },
+            "活动入口":{
+                "list":[
+                    "淘宝",
+                    "天猫",
+                    "点淘"
+                ],
+                "mapping":{
+                    "淘宝":{
+                        "url":"taobao://huodong.taobao.com/wow/pm/default/channel/main_search?disableNav=YES&s=%E6%8B%8D%E5%8D%96%E5%B8%81&keyword=%E6%8B%8D%E5%8D%96%E5%B8%81"
+                    },
+                    "天猫":{
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https%3A%2F%2Fhuodong.taobao.com%2Fwow%2Fpm%2Fdefault%2Fchannel%2Fmain_search%3FdisableNav%3DYES%26s%3D%25E6%258B%258D%25E5%258D%2596%25E5%25B8%2581%26keyword%3D%25E6%258B%258D%25E5%258D%2596%25E5%25B8%2581"
+                    },
+                    "点淘":{
+                        "url":"taobaoliveshare://huodong.taobao.com/wow/pm/default/channel/main_search?disableNav=YES&s=%E6%8B%8D%E5%8D%96%E5%B8%81&keyword=%E6%8B%8D%E5%8D%96%E5%B8%81"
+                    }
+                }
+                
+            },
+            "助力.交流 qq群":{
+                "list":[
+                     "交流·反馈 qq群",
+                     "618助力群"
+                ],
+                "mapping":{
+                    "交流·反馈 qq群":{
+                        "url":"mqqapi://card/show_pslcard?src_type=internal&version=1&uin=560582502&card_type=group&source=qrcode"
+                    },
+                    "618助力群":{
+                         "url":"mqqapi://card/show_pslcard?src_type=internal&version=1&uin=292599024&card_type=group&source=qrcode"
+                    }
+                }
+            },
+            "美团红包":{
+                "url":"imeituan://www.meituan.com/web?lch=cps:waimai:3:776c2adbab1063dbf7bb27b032eccb42:weixin194:2:80292&url=https%3A%2F%2Fclick.meituan.com%2Ft%3Ft%3D1%26c%3D1%26p%3DOWMpZ-uzIFOVe6JyOONs3dXuqV0qcAf-r-KCvHdXiNeHGrf99tjKfEFmfKD5wE8tIKFZ5trT0sOMBI8PYBI709TQrHSowZ35lT3KWxR5a72vQtwrwa1jUpHSHlsPQ3wBH50kzjqu3xTNw3PB3roiT2P2MWrO42CJ2lWJd7PKSHsq7SN-lPlsxVNr-c3nhOZlzawAIr5UyPJjc9kRfnAhGytXnltosMtnrJ4-9fEOLfYcYn1hYyDi1pO1mZxZYFcHVaTZ7wo6zUcGkJ9ItxKfslK20asctpDoufdkj2gOK66MIO_E0-GFVB9nJtuWIF02y5LhdVrEh5ZhzlUhXuwSs7abZ1dbqqz4iLIK-XMwHWFt8hqiPJDLqN1KPbyuqfK0C-muxSJTCZNQxRHJYI6zQAskG7LvEhXxrmu3vEcbJ4hhFalkXdPf0W5opucJJRXCEr47CL5dm9L95FIVMLqeCJJ5CE_ghZ2nAjHWmMLUIxXFy6IujV9DipHPcMPs8ZmoZ0SpSCfFgFHdEXj0cRllpHsledjfVhcds2gty75ozk5vwCDgaO6ixMXqlH1193CtPpMtUDqH-iLaM2A0gxcmJ3gXk5UWz5vX-oQbH-Yjy0Ql7Mn_OEV_b_qDyBYgyrb7unXIthK-lehqig2yh0Nd0PV85jl3TZYOTtcA3YycoWhilLGW2wcCjY31r1QDkEgP"
+            },
+            "饿了么红包":{
+                "url":"eleme://web?url=https://m.tb.cn/h.fHjEo2X"
+            },
+             "支付宝领红包":{
+                "url":"alipays://platformapi/startapp?appId=68687715&url=https%3A%2F%2Frender.alipay.com%2Fp%2Fc%2F180020180000047875%2Fpages%2Findex%2Findex.html%3FuserId%3D2088802913327612&userId=2088802913327612&titlePenetrate=YES&chInfo=ch_share__chsub_CopyLink"
+            },
+           
+            "淘特-天天领红包 09-07":{
+                 "url":"taobao://m.tb.cn/h.fcElrTQ"
+            
+            },
+            "美食币活动入口":{
+                "url":"taobao://huodong.m.taobao.com/act/snipcodeupdate.html?_ariver_appid=1000473"
+            },
+            "交流群":{
+                "list":{
+                    "qq":""
+                }
+            },
+            "淘礼金情报群":{
+                "url":"mqqapi://card/show_pslcard?src_type=internal&version=1&uin=596783999&card_type=group&source=qrcode"
+            },
+            
+
+           
+
+            
+            "❤️拍卖币 更新2022-07-11❤️":{
+                "type":"task",
+                "key":["拍卖币"]
+                
+            }
+            
+            
+            
+        },
+
+        "taskList":["拍卖币"]
+                
+    },
+
+    "taskData":{
+           
+            "tag":"paimai",
+            "common":{
+            "url":"https://jiutiao.coding.net/p/shortcuts/d/updatejson/git/raw/master/auto/common/tb.txt"
+            
+            },
+
+            "拍卖币":{
+                "type":"task1",
+              
+                "endpage": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+                "main":"taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+                "endMessage":"种树任务结束",
+                
+                "task":{
+                    "tag":"paimai",
+                    "scheme":"taobao://m.taobao.com/tbopen/index.html?h5Url=",
+                    "baseurl":"://商品定位.m.tmall.com?deliveryId=占位参数1&sceneId=1560&hd_from_id=100086&fromToken=Jnb1GposJBANZNk5FRnIbvjCohPURUZUb&implId=占位参数2",
+                    "wait":23,
+                    "wait2":"",
+                    "param":{
+                        "商品定位":["nike","anta","adidas","chanel","dior","biotherm","oppo"]
+                    },
+                    "before":[
+                      
+                    ],
+                    "item":["22529 other_202_673016_22529_0","29332 other_42_922077_29332_0","22464 other_203_874006_22464_0","24338 other_172_948001_24338_0","26063 other_124_800012_26063_0","26227 other_109_807001_26227_0","26679 other_95_852004_26679_0","26877 other_90_869002_26877_0","27006 other_87_873002_27006_0","24474 other_168_754024_24474_0","22207 other_214_663003_22207_0","29840 other_34_915064_29840_0","30480 other_17_970001_30480_0"]
+                }
+            }
+
+
+
+    }
+}

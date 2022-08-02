@@ -1,0 +1,261 @@
+{
+    "activity":{
+
+        "tip":"各个APP任务的快速入口\n----------------------\n\n有需要添加什么可以留言\n",
+        "list":[
+                
+                "超级红包攒能量会场任务",
+                "芭芭农场",
+                "活力中心",
+                "聚划算",
+                "薅羊毛赚话费",
+                "拍卖任务",
+                "淘金币"
+            
+              
+                
+            ],
+        "mapping" :{
+            "助力.交流 qq群":{
+                "list":[
+                     "交流·反馈 qq群",
+                     "618助力群"
+                ],
+                "mapping":{
+                    "交流·反馈 qq群":{
+                        "url":"mqqapi://card/show_pslcard?src_type=internal&version=1&uin=560582502&card_type=group&source=qrcode"
+                    },
+                    "618助力群":{
+                         "url":"mqqapi://card/show_pslcard?src_type=internal&version=1&uin=292599024&card_type=group&source=qrcode"
+                    }
+                }
+            },
+            
+            
+            "超级红包攒能量会场任务":{
+                "list":[
+                    "淘宝打开",
+                    "天猫打开",
+                    "点淘打开",
+                    "淘特打开"
+                ],
+                "mapping":{
+                    "淘宝打开":{
+                        "url":"taobao://m.tb.cn/h.fHSuQIL"
+                    },
+                    "天猫打开":{
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https://m.tb.cn/h.fHSuQIL"
+                    },
+                    "点淘打开":{
+                        "url":"taobaoliveshare://m.tb.cn/h.fHSuQIL"
+                    },
+                    "淘特打开":{
+                        "url":"taobaolite://m.ltao.com/open/index.html?action=ali.open.nav&h5Url=https://m.tb.cn/h.fHSuQIL"
+                    }
+                }
+                
+            },
+            "芭芭农场":{
+                "list":[
+                    "淘宝打开",
+                    "天猫打开"
+                ],
+                "mapping":{
+                    "淘宝打开":{
+                        "url":"taobao://pages.tmall.com/wow/hdwk/act/2020nhj-single?wh_biz=tm&disableNav=YES&disableProgress=YES&checkJump=true"
+                    },
+                    "天猫打开":{
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https%3A%2F%2Fpages.tmall.com%2Fwow%2Fhdwk%2Fact%2F2020nhj-single%3Fwh_biz%3Dtm%26disableNav%3DYES%26disableProgress%3DYES%26checkJump%3Dtrue"
+                    },
+                    "点淘":{
+                        "url":"taobaoliveshare://pages.tmall.com/wow/hdwk/act/2020nhj-single?wh_biz=tm&disableNav=YES&disableProgress=YES&checkJump=true"
+                    }
+                }
+                
+            },
+            "活力中心":{
+                "list":[
+                    "淘宝打开",
+                    "天猫打开",
+                    "点淘打开",
+                    "淘特打开"
+                ],
+                "mapping":{
+                    "淘宝打开":{
+                        "url":"taobao://pages.tmall.com/wow/z/hdwk/hdsolution2/game2020"
+                    },
+                    "天猫打开":{
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https%3A%2F%2Fpages.tmall.com%2Fwow%2Fz%2Fhdwk%2Fhdsolution2%2Fgame2020"
+                    },
+                    "点淘打开":{
+                        "url":"taobaoliveshare://pages.tmall.com/wow/z/hdwk/hdsolution2/game2020"
+                    },
+                    "淘特打开":{
+                        "url":"taobaolite://m.ltao.com/open/index.html?action=ali.open.nav&h5Url=https%3A%2F%2Fpages.tmall.com%2Fwow%2Fz%2Fhdwk%2Fhdsolution2%2Fgame2020"
+                    }
+                }
+                
+            },
+            "聚划算":{
+                "list":[
+                    "淘宝打开",
+                    "天猫打开",
+                    "点淘打开",
+                    "淘特打开"
+                ],
+                "mapping":{
+                    "淘宝打开":{
+                        "url":"taobao://pages.tmall.com/wow/a/act/ju/dailygroup/1583/wupr?disableNav=YES&status_bar_transparent=true&wh_pid=daily-253613"
+                    },
+                    "天猫打开":{
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https%3A%2F%2Fpages.tmall.com%2Fwow%2Fa%2Fact%2Fju%2Fdailygroup%2F1583%2Fwupr%3FdisableNav%3DYES%26status_bar_transparent%3Dtrue%26wh_pid%3Ddaily-253613"
+                    },
+                    "点淘打开":{
+                        "url":"taobaoliveshare://pages.tmall.com/wow/a/act/ju/dailygroup/1583/wupr?disableNav=YES&status_bar_transparent=true&wh_pid=daily-253613"
+                    },
+                    "淘特打开":{
+                        "url":"taobaolite://m.ltao.com/open/index.html?action=ali.open.nav&h5Url=https%3A%2F%2Fpages.tmall.com%2Fwow%2Fa%2Fact%2Fju%2Fdailygroup%2F1583%2Fwupr%3FdisableNav%3DYES%26status_bar_transparent%3Dtrue%26wh_pid%3Ddaily-253613"
+                    }
+                }
+                
+            },
+            "薅羊毛赚话费":{
+                "list":[
+                  "淘宝打开",
+                    "天猫打开",
+                    "点淘打开",
+                    "淘特打开"
+                ],
+                "mapping":{
+                    "淘宝打开":{
+                        "url":"taobao://pages.tmall.com/wow/z/wt/daily-earn-shee/hymB?disableNav=YES&wh_biz=tm"
+                    },
+                    "天猫打开":{
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https%3A%2F%2Fpages.tmall.com%2Fwow%2Fz%2Fwt%2Fdaily-earn-shee%2FhymB%3FdisableNav%3DYES%26wh_biz%3Dtm"
+                    },
+                    "点淘打开":{
+                        "url":"taobaoliveshare://pages.tmall.com/wow/z/wt/daily-earn-shee/hymB?disableNav=YES&wh_biz=tm"
+                    },
+                    "淘特打开":{
+                        "url":"taobaolite://m.ltao.com/open/index.html?action=ali.open.nav&h5Url=https%3A%2F%2Fpages.tmall.com%2Fwow%2Fz%2Fwt%2Fdaily-earn-shee%2FhymB%3FdisableNav%3DYES%26wh_biz%3Dtm"
+                    }
+                }
+                
+            },
+            "拍卖任务":{
+                "list":[
+                    "淘宝打开",
+                    "天猫打开",
+                    "点淘打开",
+                    "淘特打开"
+                ],
+                "mapping":{
+                    "淘宝打开":{
+                        "url":"taobao://huodong.taobao.com/wow/pm/default/channel/main_search?disableNav=YES&s=%E6%8B%8D%E5%8D%96%E5%B8%81&keyword=%E6%8B%8D%E5%8D%96%E5%B8%81"
+                    },
+                    "天猫打开":{
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https%3A%2F%2Fhuodong.taobao.com%2Fwow%2Fpm%2Fdefault%2Fchannel%2Fmain_search%3FdisableNav%3DYES%26s%3D%25E6%258B%258D%25E5%258D%2596%25E5%25B8%2581%26keyword%3D%25E6%258B%258D%25E5%258D%2596%25E5%25B8%2581"
+                    },
+                    "点淘打开":{
+                        "url":"taobaoliveshare://huodong.taobao.com/wow/pm/default/channel/main_search?disableNav=YES&s=%E6%8B%8D%E5%8D%96%E5%B8%81&keyword=%E6%8B%8D%E5%8D%96%E5%B8%81"
+                    },
+                    "淘特打开":{
+                        "url":"taobaolite://m.ltao.com/open/index.html?action=ali.open.nav&h5Url=https%3A%2F%2Fhuodong.taobao.com%2Fwow%2Fpm%2Fdefault%2Fchannel%2Fmain_search%3FdisableNav%3DYES%26s%3D%25E6%258B%258D%25E5%258D%2596%25E5%25B8%2581%26keyword%3D%25E6%258B%258D%25E5%258D%2596%25E5%25B8%2581"
+                    }
+                }
+                
+            },
+            "淘金币":{
+                "list":[
+                    "淘宝打开",
+                    "天猫打开",
+                    "点淘打开",
+                    "淘特打开"
+                ],
+                "mapping":{
+                    "淘宝打开":{
+                        "url":"taobao://pages.tmall.com/wow/z/tmtjb/town/home"
+                    },
+                    "天猫打开":{
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https%3A%2F%2Fpages.tmall.com%2Fwow%2Fz%2Ftmtjb%2Ftown%2Fhome"
+                    },
+                    "点淘打开":{
+                        "url":"taobaoliveshare://pages.tmall.com/wow/z/tmtjb/town/home"
+                    },
+                    "淘特打开":{
+                        "url":"taobaolite://m.ltao.com/open/index.html?action=ali.open.nav&h5Url=https%3A%2F%2Fpages.tmall.com%2Fwow%2Fz%2Ftmtjb%2Ftown%2Fhome"
+                    }
+                }
+                
+            },
+            "饿了么":{
+                "list":[
+                    "淘宝",
+                    "天猫",
+                    "点淘"
+                ],
+                "mapping":{
+                    "淘宝":{
+                        "url":"taobao://huodong.taobao.com/wow/pm/default/channel/main_search?disableNav=YES&s=%E6%8B%8D%E5%8D%96%E5%B8%81&keyword=%E6%8B%8D%E5%8D%96%E5%B8%81"
+                    },
+                    "天猫":{
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https%3A%2F%2Fhuodong.taobao.com%2Fwow%2Fpm%2Fdefault%2Fchannel%2Fmain_search%3FdisableNav%3DYES%26s%3D%25E6%258B%258D%25E5%258D%2596%25E5%25B8%2581%26keyword%3D%25E6%258B%258D%25E5%258D%2596%25E5%25B8%2581"
+                    },
+                    "点淘":{
+                        "url":"taobaoliveshare://huodong.taobao.com/wow/pm/default/channel/main_search?disableNav=YES&s=%E6%8B%8D%E5%8D%96%E5%B8%81&keyword=%E6%8B%8D%E5%8D%96%E5%B8%81"
+                    }
+                }
+                
+            }
+
+            
+            
+        },
+
+        "taskList":["种树"]
+                
+    },
+
+    "taskData":{
+           
+            "tag":"zbs",
+            "common":{
+            "url":"https://jiutiao.coding.net/p/shortcuts/d/updatejson/git/raw/master/auto/common/tb.txt"
+            
+            },
+
+            "种树":{
+                "type":"task1",
+              
+                "endpage": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+                "main":"taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+                "endMessage":"种树任务结束",
+                
+                "task":{
+                    "tag":"zbs",
+                    "scheme":"taobao://m.taobao.com/tbopen/index.html?h5Url=",
+                    "baseurl":"://商品定位.m.tmall.com?deliveryId=占位参数1&sceneId=占位参数4&hd_from_id=占位参数3&fromToken=aR1DJg5c00K9LpnNUeOS9GgikUzUNU7&implId=占位参数2",
+                    "wait":23,
+                    "wait2":"",
+                    "param":{
+                        "商品定位":["nike","anta","adidas","chanel","dior","biotherm","oppo"]
+                    },
+                    "before":[
+                       
+                    
+                   
+                    ],
+                    "item":[
+
+                        
+
+
+
+                        ]
+                }
+            }
+
+
+
+    }
+}
