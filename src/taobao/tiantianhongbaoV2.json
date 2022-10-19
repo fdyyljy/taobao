@@ -4,7 +4,7 @@
         "tip":"请在网络好的地方执行\n有些任务可能失败 需要手动\n",
         "list":[
                 
-                "❤️天猫-天天领红包 更新2022-05-30❤️",
+                "❤️天猫-天天领红包 更新2022-10-19❤️",
                 "设置多账号|自动化",
                 "活动入口",
                 "美团红包",
@@ -77,7 +77,7 @@
                 "url":"imeituan://www.meituan.com/web?lch=cps:waimai:3:776c2adbab1063dbf7bb27b032eccb42:weixin194:2:80292&url=https%3A%2F%2Fclick.meituan.com%2Ft%3Ft%3D1%26c%3D1%26p%3DOWMpZ-uzIFOVe6JyOONs3dXuqV0qcAf-r-KCvHdXiNeHGrf99tjKfEFmfKD5wE8tIKFZ5trT0sOMBI8PYBI709TQrHSowZ35lT3KWxR5a72vQtwrwa1jUpHSHlsPQ3wBH50kzjqu3xTNw3PB3roiT2P2MWrO42CJ2lWJd7PKSHsq7SN-lPlsxVNr-c3nhOZlzawAIr5UyPJjc9kRfnAhGytXnltosMtnrJ4-9fEOLfYcYn1hYyDi1pO1mZxZYFcHVaTZ7wo6zUcGkJ9ItxKfslK20asctpDoufdkj2gOK66MIO_E0-GFVB9nJtuWIF02y5LhdVrEh5ZhzlUhXuwSs7abZ1dbqqz4iLIK-XMwHWFt8hqiPJDLqN1KPbyuqfK0C-muxSJTCZNQxRHJYI6zQAskG7LvEhXxrmu3vEcbJ4hhFalkXdPf0W5opucJJRXCEr47CL5dm9L95FIVMLqeCJJ5CE_ghZ2nAjHWmMLUIxXFy6IujV9DipHPcMPs8ZmoZ0SpSCfFgFHdEXj0cRllpHsledjfVhcds2gty75ozk5vwCDgaO6ixMXqlH1193CtPpMtUDqH-iLaM2A0gxcmJ3gXk5UWz5vX-oQbH-Yjy0Ql7Mn_OEV_b_qDyBYgyrb7unXIthK-lehqig2yh0Nd0PV85jl3TZYOTtcA3YycoWhilLGW2wcCjY31r1QDkEgP"
             },
             "饿了么红包":{
-                "url":"eleme://web?url=https://m.tb.cn/h.fHjEo2X"
+                "url":"eleme://web?url=https://m.tb.cn/h.UWIKncw"
             },
              "8月2-15支付宝天天领红包":{
                 "url":"alipays://platformapi/startapp?appId=68687715&url=https%3A%2F%2Frender.alipay.com%2Fp%2Fc%2F180020180000047875%2Fpages%2Findex%2Findex.html%3FuserId%3D2088802913327612&userId=2088802913327612&titlePenetrate=YES&chInfo=ch_share__chsub_CopyLink"
@@ -103,7 +103,7 @@
            
 
             
-            "❤️天猫-天天领红包 更新2022-05-30❤️":{
+            "❤️天猫-天天领红包 更新2022-10-19❤️":{
                 "type":"task",
                 "key":["天天红包"]
                 
@@ -145,32 +145,7 @@
                       
                     ],
                     "item":[
-                        "28772 other_12_902034_28772_0",
-                        "24339 other_432_750021_24339_0",
-                        "12018 other_455_924019_12018_0",
-                        "24795 other_108_765016_24795_0",
-                        "12069 other_432_124024_12069_0",
-                        "17129 other_432_750050_17129_0",
-                        "19907 other_455_603040_19907_0",
-                        "12098 other_432_120016_12098_0",
-                        "22084 other_178_750032_22084_0",
-                        "23867 other_432_715007_23867_0",
-                        "25926 other_77_794007_25926_0",
-
-                        "12480 other_418_926022_12480_0",
-                        "27020 other_432_883014_27020_0",
-                        "29338 other_455_924023_29338_0",
-                        "18521 other_432_467020_18521_0",
-                        "24121 other_136_911023_24121_0",
-                        "23410 other_432_704018_23410_0",
-
-                        "27145 other_432_707070_27145_0",
-                        
-                        "18087 other_432_506006_18087_0",
-                        "29339 other_455_934040_29339_0",
-                        "15235 other_455_470002_15235_0",
-                        "25031 other_455_774012_25031_0"
-
+                        "28772 other_154_902034_28772_0","27020 other_574_883014_27020_0","33766 other_182_1092007_33766_0","24795 other_250_765016_24795_0","34352 other_121_917031_34352_0","24339 other_574_750021_24339_0","12069 other_574_124024_12069_0","12070 other_574_733049_12070_0","19907 other_597_603040_19907_0","18521 other_574_1014002_18521_0","35126 other_574_1099048_35126_0","29570 other_180_1013002_29570_0","35362 other_182_1097015_35362_0","33293 other_182_1105004_33293_0","34158 other_182_1138004_34158_0","29489 other_597_0_29489_0","26893 other_0_860014_26893_0","15235 other_597_1027004_15235_0","12098 other_574_120016_12098_0","25926 other_219_794007_25926_0","27145 other_574_707070_27145_0","18087 other_574_506006_18087_0","29489 other_597_0_29489_0","15235 other_597_1027004_15235_0","32719 other_574_1033012_32719_0"
                         ]
                 }
             }
