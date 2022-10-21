@@ -5,7 +5,7 @@
         "list":[
                 
                 "❤️双十一攒幸运换红包任务❤️",
-                "设置多账号|自动化",
+               
                 "任务入口",
                 "饿了么红包",
                 "助力.交流 qq群"
@@ -135,7 +135,7 @@
 
     "taskData":{
            
-            "tag":"zbs",
+            "tag":"xyz",
             "common":{
             "url":"https://gitcode.net/jiutiao/updatejson/-/raw/master/auto/common/tb.txt"
             
@@ -149,7 +149,7 @@
                 "endMessage":"种树任务结束",
                 
                 "task":{
-                    "tag":"zbs",
+                    "tag":"xyz",
                     "scheme":"taobao://m.taobao.com/tbopen/index.html?h5Url=",
                     "baseurl":"://商品定位.m.tmall.com?deliveryId=占位参数1&sceneId=占位参数4&hd_from_id=占位参数3&fromToken=aR1DJg5c00K9LpnNUeOS9GgikUzUNU7&implId=占位参数2",
                     "wait":23,
