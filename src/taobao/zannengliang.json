@@ -4,7 +4,7 @@
         "tip":"请在网络好的地方执行\n有些任务可能失败 需要手动\n",
         "list":[
                 
-                "❤️淘宝-超级争霸赛 更新2022-05-24❤️",
+                "❤️双十一攒幸运换红包任务❤️",
                 "设置多账号|自动化",
                 "任务入口",
                 "饿了么红包",
@@ -75,13 +75,13 @@
                 ],
                 "mapping":{
                     "淘宝":{
-                        "url":"taobao://m.tb.cn/h.fsqray4"
+                        "url":"taobao://m.tb.cn/h.UV0zM0M"
                     },
                     "天猫":{
-                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https://m.tb.cn/h.fsqray4"
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https://m.tb.cn/h.UV0zM0M"
                     },
                     "点淘":{
-                        "url":"taobaoliveshare://m.tb.cn/h.fsqray4"
+                        "url":"taobaoliveshare://m.tb.cn/h.UV0zM0M"
                     }
                 }
                 
@@ -119,7 +119,7 @@
            
 
             
-            "❤️淘宝-超级争霸赛 更新2022-05-24❤️":{
+            "❤️双十一攒幸运换红包任务❤️":{
                 "type":"task",
                 "key":["种树"]
                 
@@ -158,12 +158,12 @@
                         "商品定位":["nike","anta","adidas","chanel","dior","biotherm","oppo"]
                     },
                     "before":[
-                        {"url":"://s.click.taobao.com/t?e=m%3D2%26s%3D08li4iYzqEtw4vFB6t2Z2ueEDrYVVa646aU5mWYV2GpyINtkUhsv0Ogyy2h%2BVzo4sex2YzirA1tTTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBwvSBaztLHip82kntfD1b2jVZEtX0v4VDbptmeGW8Qbjwm6KNJaO54uU8VopE7Rivxg5p7bh%2BFbQ%3D&union_lens=lensId%3AOPT%401653826139%40a392be2c-ce7f-4be7-9ef0-f76360fe459a_673591364626%401","wait":5},{"url":"://s.click.taobao.com/t?e=m%3D2%26s%3D9pj6EwZBhwRw4vFB6t2Z2ueEDrYVVa64NJKoJjxtY1FyINtkUhsv0Ogyy2h%2BVzo4r6wcFjp7M81TTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBwvSBaztLHipJZui1zwGkgYRfYAOzDqTHK8ZXF6ymDmK456hed%2BUvzsYl7w3%2FA2kb&union_lens=lensId%3AOPT%401653826393%40501167cb-2e7b-4e70-9524-9d19c5355ed8_614138274252%401","wait":5},{"url":"://s.click.taobao.com/t?e=m%3D2%26s%3DQer%2F%2FDBaVE1w4vFB6t2Z2ueEDrYVVa646aU5mWYV2GpyINtkUhsv0Ogyy2h%2BVzo4r6wcFjp7M81TTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBwvSBaztLHiozdB8eY2LuKr%2BBN0CmRnBd2KXobxhs0f7wOR51emjQw7UaqOH127ZE&union_lens=lensId%3AOPT%401653826393%40501167cb-2e7b-4e70-9524-9d19c5355ed8_584527124719%401","wait":5},{"url":"://s.click.taobao.com/t?e=m%3D2%26s%3DlLDjJFPlqEhw4vFB6t2Z2ueEDrYVVa646aU5mWYV2GpyINtkUhsv0Ogyy2h%2BVzo4Cluxo6ZJ%2F%2BNTTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBwvSBaztLHio2eP%2FSDPH9jJk0M2b8wmjS4x6ii2uzDCk6A8DVGNvC3AeBfuEYm6Av&union_lens=lensId%3AOPT%401653826444%4034c646f8-1bee-432f-92ae-503ca49ee67d_600515195760%401","wait":5},{"url":"://s.click.taobao.com/t?e=m%3D2%26s%3DHe%2FDBmY8%2Ff9w4vFB6t2Z2ueEDrYVVa646aU5mWYV2GpyINtkUhsv0Ogyy2h%2BVzo4Cluxo6ZJ%2F%2BNTTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBwvSBaztLHirFM6hxgw2KFC9lrS57UwA608TC8rEy2O8IxYQ82RQiR2oqORGP9Y2bxg5p7bh%2BFbQ%3D&union_lens=lensId%3AOPT%401653826444%4034c646f8-1bee-432f-92ae-503ca49ee67d_654383256085%401","wait":5},{"url":"://s.click.taobao.com/t?e=m%3D2%26s%3DNdnHDrXXgKlw4vFB6t2Z2ueEDrYVVa646aU5mWYV2GpyINtkUhsv0Ogyy2h%2BVzo4ihMekbd4ko5TTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBwvSBaztLHiog8EZ3wGc43i2D9L3NFPaKsShUjNLx%2BdtEi%2BtP%2FRzWoXAluuKClIymxg5p7bh%2BFbQ%3D&union_lens=lensId%3AOPT%401653826536%40e314e534-a2cb-4ada-a9cb-b9db423b71fd_655802610765%401","wait":5},{"url":"://s.click.taobao.com/t?e=m%3D2%26s%3DSPIRyBkK0y9w4vFB6t2Z2ueEDrYVVa646aU5mWYV2GpyINtkUhsv0Ogyy2h%2BVzo4MwAloxHdNFJTTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBwvSBaztLHirvdt17NnwWNtY1Nepvmk9a1hjz2dNwkcTigB1rJSTiDIIsUVnEP8tnxg5p7bh%2BFbQ%3D&union_lens=lensId%3AOPT%401653826580%40ed321874-47ee-414a-a745-69c6e630be5d_644004036506%401","wait":5},{"url":"://s.click.taobao.com/t?e=m%3D2%26s%3DxrvcJAhsRM9w4vFB6t2Z2ueEDrYVVa646aU5mWYV2GpyINtkUhsv0Ogyy2h%2BVzo4mMFUJNcvBK9TTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBwvSBaztLHiqhC27CPXMhvLnPZ%2FPSJgtkbptmeGW8QbjS1sPCJIonkuUiXMssNPSPxg5p7bh%2BFbQ%3D&union_lens=lensId%3AOPT%401653826682%40850946f0-78da-4870-ace7-a4ed28bc65a1_644462085972%401","wait":5},{"url":"://s.click.taobao.com/t?e=m%3D2%26s%3DNrktbjqkVfRw4vFB6t2Z2ueEDrYVVa646aU5mWYV2GpyINtkUhsv0Ogyy2h%2BVzo4Vmg8SORgY9FTTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBwvSBaztLHiqyyxPUa9XgLmpOMAxifFhoIcR1QFwJ2BY8Ys4X39uIecmpppjgz13R&union_lens=lensId%3AOPT%401653826709%4031fc41b8-2b8e-4247-a204-d681f83ec406_596819074124%401","wait":5},{"url":"://s.click.taobao.com/t?e=m%3D2%26s%3D1loFz6qG5sZw4vFB6t2Z2ueEDrYVVa646aU5mWYV2GpyINtkUhsv0Ogyy2h%2BVzo4bwEC5trdwuVTTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBwvSBaztLHipUNM8az5ZeGM2UpoLAFE4wkVn6LEMKDD8aIR1DejrZv89kxRRHfUqm&union_lens=lensId%3AOPT%401653826751%40431b1504-8af5-4af2-80e5-18498bbf7b13_670026546638%401","wait":5}
-                    ],
+                        {"url":"https://m.tb.cn/h.UV0zM0M","wait":5},
+                        {"url":"https://s.click.taobao.com/t?e=m%3D2%26s%3D0OJSnpl82hxw4vFB6t2Z2ueEDrYVVa64bRMC03PU1ohyINtkUhsv0IP45jwb0KQ7WNI3LssOJ1ZTTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBB0AlIhMOOpZJeLiYHw0ogAdq%2BX8Cgoz96pHy7gcrxy4WATHOZqhWvQjKc7oxneBYcSpj5qSCmbA%3D","wait":5},{"url":"https://s.click.taobao.com/t?e=m%3D2%26s%3DD1oaSQKY4Xpw4vFB6t2Z2ueEDrYVVa64bRMC03PU1ohyINtkUhsv0IP45jwb0KQ7WNI3LssOJ1ZTTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBB0AlIhMOOpZJeLiYHw0ogGniDd86cKZ60dZFpia%2BxvkAsy30%2FB6NTBH4l2pqhJEwMzXmCitDxQQ%3D&","wait":5},{"url":"https://s.click.taobao.com/t?e=m%3D2%26s%3D3Tud%2Fa%2FU83xw4vFB6t2Z2ueEDrYVVa64bRMC03PU1ohyINtkUhsv0IP45jwb0KQ7WNI3LssOJ1ZTTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBB0AlIhMOOpZJeLiYHw0ogJrq%2FKbTKtDDg3QSW%2BVtL2Ev2JWaFLnJyyGpBBm%2BUHvwxiXvDf8DaRs%3D&","wait":5},{"url":"https://s.click.taobao.com/t?e=m%3D2%26s%3DeJhw4upQGeFw4vFB6t2Z2ueEDrYVVa64bRMC03PU1ohyINtkUhsv0IP45jwb0KQ7WNI3LssOJ1ZTTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBB0AlIhMOOpZJeLiYHw0ogFNVgG2HR8FQNIsTF6cDNDQ6ry67Nao3Q%2B1dQYtFlCN5DJbuZDCrHt4%3D&","wait":5},{"url":"https://s.click.taobao.com/t?e=m%3D2%26s%3DyK2v63oI0C5w4vFB6t2Z2ueEDrYVVa64bRMC03PU1ohyINtkUhsv0K1XQU03t8tCFIHTjusY8IBTTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBB0AlIhMOOpZJeLiYHw0ogDw69BoUmpt5RG30r6tvdARQ4AnJ1M%2BpJf3B5AsjrgNkz2TFFEd9SqY%3D","wait":5},{"url":"https://s.click.taobao.com/t?e=m%3D2%26s%3Dk456ROaugStw4vFB6t2Z2ueEDrYVVa64bRMC03PU1ohyINtkUhsv0K1XQU03t8tCFIHTjusY8IBTTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBB0AlIhMOOpZJeLiYHw0ogHu%2BvhAPvRjwRPD%2BVPhuMpZuMvUiTR9CxcDBAEFiX9xlxgxdTc00KD8%3D","wait":5},{"url":"https://s.click.taobao.com/t?e=m%3D2%26s%3D65iikoOq4gBw4vFB6t2Z2ueEDrYVVa646aU5mWYV2GpyINtkUhsv0C4N5YmaEaKVZidzrQp2Z%2BDXwCix4%2F8D%2F26VRaExDu%2FVtlCwZrzXzMAQvPQ7c3hAcE%2FtlcOYSvawqY6qORsearbvYD4FIppJpzl3R7PqcsSLH4KziUOVqIrJhBAWswW1iMYMXU3NNCg%2F","wait":5},{"url":"https://s.click.taobao.com/t?e=m%3D2%26s%3D6d7hm1O4G4Bw4vFB6t2Z2ueEDrYVVa646aU5mWYV2GpyINtkUhsv0C4N5YmaEaKVrpXSalKzZLzXwCix4%2F8D%2F26VRaExDu%2FVtlCwZrzXzMAQvPQ7c3hAcE%2FtlcOYSvawqY6qORsearbPcx0y%2FZTLWPd1E3tQGgJyI8eFqiT87x9rzs2YPt%2B3zsYMXU3NNCg%2F","wait":5},{"url":"https://s.click.taobao.com/t?e=m%3D2%26s%3DqK9pU0veOnRw4vFB6t2Z2ueEDrYVVa646aU5mWYV2GpyINtkUhsv0C4N5YmaEaKVLHMZmAvzSv7XwCix4%2F8D%2F26VRaExDu%2FVtlCwZrzXzMAQvPQ7c3hAcE%2FtlcOYSvawYpnytw5eEYiTx23Fs2SgWRIjP5Uhv22UpSrNVVp408DjZA6SSI2ZOcYl7w3%2FA2kb","wait":5},{"url":"https://s.click.taobao.com/t?e=m%3D2%26s%3DK3exH%2ByJ9qJw4vFB6t2Z2ueEDrYVVa646aU5mWYV2GpyINtkUhsv0C4N5YmaEaKVZugO4gDOCUDXwCix4%2F8D%2F26VRaExDu%2FVtlCwZrzXzMAQvPQ7c3hAcE%2FtlcOYSvawqY6qORsearaQd8N0etwC%2BNPEwvKxMtjv%2BKnJfzSi5VjgMhhVSpJ4ecYOae24fhW0","wait":5},{"url":"https://s.click.taobao.com/t?e=m%3D2%26s%3DyVm%2FMDsVjkhw4vFB6t2Z2ueEDrYVVa64%2BlE8S0T2%2BEpyINtkUhsv0AtBgob%2BN1DPunFL2OzKi7fXwCix4%2F8D%2F26VRaExDu%2FVtlCwZrzXzMAQvPQ7c3hAcO4M48Y85w1SkRy%2BfmN1nebRSXY1hZhObywC6%2Bb7pw1W1hjz2dNwkcThRHJ0MTcSnpCmW6Ikm%2Bmoxg5p7bh%2BFbQ%3D","wait":5},{"url":"https://s.click.taobao.com/t?e=m%3D2%26s%3D3hNb3nPXoR5w4vFB6t2Z2ueEDrYVVa64bRMC03PU1ohyINtkUhsv0K1XQU03t8tCFIHTjusY8IBTTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBB0AlIhMOOpZJeLiYHw0ogPt7Gx6TfAhrsHx1exc8bj%2B8NpJ0t6Vmp21GTcGNOMG%2BOYQwrhPE0iw%3D&","wait":5},{"url":"https://s.click.taobao.com/t?e=m%3D2%26s%3Dpa31PYkLXndw4vFB6t2Z2ueEDrYVVa64bRMC03PU1ohyINtkUhsv0K1XQU03t8tCsKCavVlnLXhTTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBB0AlIhMOOpZJeLiYHw0ogNefFOhgJgS5v7L2HKcLGOILc3GhVPXNIgJTIilXu0k7L33lFJev%2B6Q%3D","wait":5},{"url":"https://s.click.taobao.com/t?e=m%3D2%26s%3Dw2qTUz6Ngptw4vFB6t2Z2ueEDrYVVa64bRMC03PU1ohyINtkUhsv0K1XQU03t8tCsKCavVlnLXhTTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBB0AlIhMOOpZJeLiYHw0ogMNl%2B8OKOpDEiwWxoxviAfLzRJyJ9lzNnXuXyue27s6YcSpj5qSCmbA%3D","wait":5},{"url":"https://s.click.taobao.com/t?e=m%3D2%26s%3DtvVmfGSbpRtw4vFB6t2Z2ueEDrYVVa64bRMC03PU1ohyINtkUhsv0K1XQU03t8tCAzz1hKwIikhTTTR6hagcQocQfbvSnakSqingGZNBp9bbyGglDPftWz4o%2FLy7g8PBB0AlIhMOOpZJeLiYHw0ogM%2FDHTqGYyhQEMjIdZuNCGDqQouAeim%2BNMaAiHEOYUPHTHSKda6%2BD90%3D","wait":5}],
                     "item":[
 
                         
-                            "sceneId=3423&hd_from_id=100157&deliveryId=27996&implId=other_0_886019_27996_0"
+                            "sceneId=4259&hd_from_id=100157&deliveryId=35347&implId=other_0_1101017_35347_0"
 
 
                         ]
