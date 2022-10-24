@@ -126,11 +126,12 @@
             
 
            "运行任务-2022.10.23更新":{
-               "tip":"cookie模式是用自己的数据跑任务\n优点是过风险检测\n-----------------------\n不会取cookie的点下面的获取cookie\n-----------------------\n使用cookie模式请确保下载捷径的途径是安全的",
+               "tip":"cookie模式是用自己的数据跑任务\n优点是过风险检测\n-----------------------\n不会取cookie的点下面的获取cookie\n-----------------------\n使用cookie模式请确保下载捷径的途径是安全的\n-----------------------\n 快速去页面APP版本无需登录 \n-----------------------\n",
                "list":[
                     "填写COOKIE开始运行",
                     "取cookie教程",
-                    "点我快速去登录页面"
+                    "点我快速去登录页面",
+                    "点我快速抓去页面APP版"
                     
                 ],
                 "mapping":{
@@ -142,21 +143,14 @@
                         "type":"cookie"
                     },
                     "取cookie教程":{
-                        "list":[
-                            "带图的点我",
-                            "上面打不开点我"
-                        ],
-                        "mapping":{
-                            "带图的点我":{
-                                "url":"https://github.com/fly486/-/wiki"
-                            },
-                            "上面打不开点我":{
-                                "url":"https://jiutiaomao.coding.net/p/xuexi/d/ck/git/raw/master/README.md"
-                            }
-                        }
+                        "type":"jiaocheng",
+                        "value":"1"
                     },
-                    "点我快速去登录页面":{
+                    "点我快速去登录页面web版":{
                         "url":"https://login.m.taobao.com/login.htm?redirectURL=https://main.m.taobao.com/mytaobao/index.html "
+                    },
+                    "点我快速抓去页面APP版":{
+                        "url":"taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fh5api.m.taobao.com%2Fh5%2Fmtop.taobao.wireless.amp2.im.message.unreadcount%2F1.0%2F%3Fjsv%3D2.5.1%26appKey%3D12574478%26t%3D1666434168208%26sign%3Dcae548d2f3ba85bdca5546c59e7ba4d6%26api%3Dmtop.taobao.wireless.amp2.im.message.unreadcount%26v%3D1.0%26type%3Djsonp%26dataType%3Djsonp%26callback%3Dmtopjsonp5%26data%3D%257B%257D"
                     }
                 }
            }
