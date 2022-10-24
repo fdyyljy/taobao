@@ -11,8 +11,7 @@
                 "图文教程",
                 "饿了么红包",
                 "美团红包",
-                "助力.交流 qq群",
-                "超级红包攒能量会场任务"
+                "助力.交流 qq群"
             
               
                 
@@ -94,13 +93,13 @@
             "助力.交流 qq群":{
                 "list":[
                      "交流·反馈 qq群",
-                     "618助力群"
+                     "双十一助力群"
                 ],
                 "mapping":{
                     "交流·反馈 qq群":{
                         "url":"mqqapi://card/show_pslcard?src_type=internal&version=1&uin=560582502&card_type=group&source=qrcode"
                     },
-                    "618助力群":{
+                    "双十一助力群":{
                          "url":"mqqapi://card/show_pslcard?src_type=internal&version=1&uin=292599024&card_type=group&source=qrcode"
                     }
                 }
