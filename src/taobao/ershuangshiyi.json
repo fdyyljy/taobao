@@ -186,9 +186,9 @@
                 "task":{
                     "tag":"tm1111",
                     "scheme":"taobao://m.taobao.com/tbopen/index.html?h5Url=",
-                    "baseurl":"://商品定位.m.tmall.com?deliveryId=占位参数1&sceneId=3399&hd_from_id=100155&fromToken=eP1w8QGUOexjRMbZu8DKHMgpc6UGUgUXUJ&implId=占位参数2",
-                    "ckurl":"://商品定位.m.tmall.com?sceneId=3399&hd_from_id=100155",
-                    "ckitemUrl":"://商品定位.m.tmall.com?deliveryId=占位参数1&sceneId=3399&hd_from_id=100155&implId=占位参数2",
+                    "baseurl":"://商品定位.m.tmall.com?deliveryId=占位参数1&sceneId=4276&hd_from_id=100165&fromToken=eP1w8QGUOexjRMbZu8DKHMgpc6UGUgUXUJ&implId=占位参数2",
+                    "ckurl":"://商品定位.m.tmall.com?sceneId=4276&hd_from_id=100165",
+                    "ckitemUrl":"://商品定位.m.tmall.com?deliveryId=占位参数1&sceneId=4276&hd_from_id=100165&implId=占位参数2",
                     "wait":23,
                     "wait2":"",
                     "param":{
