@@ -3,8 +3,9 @@
 
         "tip":"各个APP任务的快速入口\n----------------------\n\n有需要添加什么可以留言\n",
         "list":[
-                
+                "超级红包，每日8点抢惊喜红包",
                 "超级红包攒能量会场任务",
+                "预售会场",
                 "芭芭农场",
                 "活力中心",
                 "聚划算",
@@ -16,6 +17,7 @@
                 
             ],
         "mapping" :{
+            "预售会场":{"url":"taobao://m.tb.cn/h.UefEHlO"},
             "助力.交流 qq群":{
                 "list":[
                      "交流·反馈 qq群",
@@ -30,7 +32,29 @@
                     }
                 }
             },
-            
+            "超级红包，每日8点抢惊喜红包":{
+                "list":[
+                    "淘宝打开",
+                    "天猫打开",
+                    "点淘打开",
+                    "淘特打开"
+                ],
+                "mapping":{
+                    "淘宝打开":{
+                        "url":"taobao://m.tb.cn/h.UVbIA8e"
+                    },
+                    "天猫打开":{
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https://m.tb.cn/h.UVbIA8e"
+                    },
+                    "点淘打开":{
+                        "url":"taobaoliveshare://m.tb.cn/h.UVbIA8e"
+                    },
+                    "淘特打开":{
+                        "url":"taobaolite://m.ltao.com/open/index.html?action=ali.open.nav&h5Url=https://m.tb.cn/h.UVbIA8e"
+                    }
+                }
+                
+            },
             
             "超级红包攒能量会场任务":{
                 "list":[
@@ -41,16 +65,16 @@
                 ],
                 "mapping":{
                     "淘宝打开":{
-                        "url":"taobao://m.tb.cn/h.fHSuQIL"
+                        "url":"taobao://m.tb.cn/h.UVbIA8e"
                     },
                     "天猫打开":{
-                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https://m.tb.cn/h.fHSuQIL"
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https://m.tb.cn/h.UVbIA8e"
                     },
                     "点淘打开":{
-                        "url":"taobaoliveshare://m.tb.cn/h.fHSuQIL"
+                        "url":"taobaoliveshare://m.tb.cn/h.UVbIA8e"
                     },
                     "淘特打开":{
-                        "url":"taobaolite://m.ltao.com/open/index.html?action=ali.open.nav&h5Url=https://m.tb.cn/h.fHSuQIL"
+                        "url":"taobaolite://m.ltao.com/open/index.html?action=ali.open.nav&h5Url=https://m.tb.cn/h.UVbIA8e"
                     }
                 }
                 
