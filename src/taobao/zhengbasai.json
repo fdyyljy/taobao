@@ -61,7 +61,7 @@
                         },
                     "自动化连接":{
                         "type":"copy",
-                        "value":"shortcuts://run-shortcut?name=淘宝-超红攒能量自动化&input=text&text=run"
+                        "value":"shortcuts://run-shortcut?name=淘宝-超红赞能量自动化&input=text&text=run"
                     }   
                     
                     
