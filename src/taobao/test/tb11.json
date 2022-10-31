@@ -20,7 +20,7 @@
         "mapping" :{
             "提醒：用Aloook的可以手动填写COOKIE":{
                 
-                "type":"shoudong",
+                "type":"runList",
                 "value":"1"
             
             },
