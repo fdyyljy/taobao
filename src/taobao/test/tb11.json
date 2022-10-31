@@ -1,0 +1,230 @@
+{
+    "endPage":"taobao://m.tb.cn/h.UVtWtBP",
+    "tag":"tm1111",
+    "activity":{
+
+        "tip":"切记cookie账户和app账户是一个账户\n---------------\n一个手机不能运行超过三个账号\n---------------\n没用过或cookie处理错误的请先看下面教程\n---------------",
+        "list":[
+              
+                "运行任务-2022.10.25更新",
+                
+                "免登录获取CK图文教程",
+                "饿了么红包",
+                "美团红包",
+                "助力.交流 qq群",
+                "提醒：用Aloook的可以手动填写COOKIE"
+            
+              
+                
+            ],
+        "mapping" :{
+            "超级红包攒能量会场任务":{
+                "url":"taobao://m.tb.cn/h.fHSuQIL"
+            },
+            "去我的小店看看":{
+                "url":"https://ktt.pinduoduo.com/login/explore?wx_share_scheme_sn=MRS525122052903480000007302000006915"
+            },
+            "免登录获取CK图文教程":{
+                "type":"jiaocheng",
+                "value":"1"
+            },
+
+            "开始任务":{
+                            "type":"task",
+                            "key":["种树"]
+                    },
+            "设置多账号|自动化":{
+                "tip":"多账号设置 不同APP登录不同账号",
+                "list":[
+                    "淘宝运行---初始形式",
+                    "淘宝+天猫运行",
+                    "淘+天+点淘运行",
+                    "天猫运行",
+                    "点淘运行",
+                    "自动化连接"
+                ],
+                "mapping":{
+                    "淘宝运行---初始形式":{
+                        "type":"set",
+                        "value":"1"
+                    },
+                    "淘宝+天猫运行":{
+                        "type":"set",
+                        "value":"2"
+                    },
+                    "淘+天+点淘运行":{
+                        "type":"set",
+                        "value":"3"
+                        },
+                    "天猫运行":{
+                    "type":"set",
+                    "value":"4"
+                    },
+                    "点淘运行":{
+                        "type":"set",
+                        "value":"5"
+                        },
+                    "自动化连接":{
+                        "type":"copy",
+                        "value":"shortcuts://run-shortcut?name=淘宝-618喵运会自动任务&input=text&text=run"
+                    }   
+                    
+                    
+                }
+            },
+            "任务入口":{
+                "list":[
+                    "淘宝",
+                    "天猫",
+                    "点淘"
+                ],
+                "mapping":{
+                    "淘宝":{
+                        "url":"taobao://pages.tmall.com/wow/z/hdwk/20220618/gamehome?disableNav=YES"
+                    },
+                    "天猫":{
+                        "url":"tmall://page.tm/appLink?&action=ali.open.nav&h5Url=https%3A%2F%2Fpages.tmall.com%2Fwow%2Fz%2Fhdwk%2F20220618%2Fgamehome%3FdisableNav%3DYES"
+                    },
+                    "点淘":{
+                        "url":"taobaoliveshare://pages.tmall.com/wow/z/hdwk/20220618/gamehome?disableNav=YES"
+                    }
+                }
+                
+            },
+            "助力.交流 qq群":{
+                "list":[
+                     "交流·反馈 qq群",
+                     "双十一助力群"
+                ],
+                "mapping":{
+                    "交流·反馈 qq群":{
+                        "url":"mqqapi://card/show_pslcard?src_type=internal&version=1&uin=560582502&card_type=group&source=qrcode"
+                    },
+                    "双十一助力群":{
+                         "url":"mqqapi://card/show_pslcard?src_type=internal&version=1&uin=292599024&card_type=group&source=qrcode"
+                    }
+                }
+            },
+            
+            "美团红包":{
+                "url":"imeituan://www.meituan.com/web?lch=cps:waimai:3:776c2adbab1063dbf7bb27b032eccb42:weixin194:2:80292&url=https%3A%2F%2Fclick.meituan.com%2Ft%3Ft%3D1%26c%3D1%26p%3DOWMpZ-uzIFOVe6JyOONs3dXuqV0qcAf-r-KCvHdXiNeHGrf99tjKfEFmfKD5wE8tIKFZ5trT0sOMBI8PYBI709TQrHSowZ35lT3KWxR5a72vQtwrwa1jUpHSHlsPQ3wBH50kzjqu3xTNw3PB3roiT2P2MWrO42CJ2lWJd7PKSHsq7SN-lPlsxVNr-c3nhOZlzawAIr5UyPJjc9kRfnAhGytXnltosMtnrJ4-9fEOLfYcYn1hYyDi1pO1mZxZYFcHVaTZ7wo6zUcGkJ9ItxKfslK20asctpDoufdkj2gOK66MIO_E0-GFVB9nJtuWIF02y5LhdVrEh5ZhzlUhXuwSs7abZ1dbqqz4iLIK-XMwHWFt8hqiPJDLqN1KPbyuqfK0C-muxSJTCZNQxRHJYI6zQAskG7LvEhXxrmu3vEcbJ4hhFalkXdPf0W5opucJJRXCEr47CL5dm9L95FIVMLqeCJJ5CE_ghZ2nAjHWmMLUIxXFy6IujV9DipHPcMPs8ZmoZ0SpSCfFgFHdEXj0cRllpHsledjfVhcds2gty75ozk5vwCDgaO6ixMXqlH1193CtPpMtUDqH-iLaM2A0gxcmJ3gXk5UWz5vX-oQbH-Yjy0Ql7Mn_OEV_b_qDyBYgyrb7unXIthK-lehqig2yh0Nd0PV85jl3TZYOTtcA3YycoWhilLGW2wcCjY31r1QDkEgP"
+            },
+            
+            "饿了么红包":{
+                "type":"urlarr",
+                "arr":[
+                    "eleme://web?url=https%3A%2F%2Ftb.ele.me%2Fwow%2Falsc%2Fmod%2Fd5275789de46503ba0908a9d%3Fe%3D1%26open_type%3Dminiapp%26inviterId%3Dd5e4ad22%26actId%3D1%26_ltracker_f%3Dhjb_app_grzx%26chInfo%3Dch_app_chsub_Photo"
+                    
+                ],
+                "wait":5,
+                "endpage":"eleme://web?url=https://m.tb.cn/h.UecgD47"
+            },
+            
+           
+            "淘礼金情报群":{
+                "url":"mqqapi://card/show_pslcard?src_type=internal&version=1&uin=596783999&card_type=group&source=qrcode"
+            },
+            
+
+           "运行任务-2022.10.25更新":{
+               "tip":"cookie模式是用自己的数据跑任务\n优点是过风险检测\n-----------------------\n不会取cookie的点下面的获取cookie\n-----------------------\n使用cookie模式请确保下载捷径的途径是安全的\n-----------------------\n 快速去页面APP版本无需登录 \n-----------------------\n",
+               "list":[
+                    "填写COOKIE开始运行",
+                    "取cookie教程",
+                    "点我快速去登录页面web版",
+                    "点我快速抓去页面APP版"
+                    
+                ],
+                "mapping":{
+                     "运行正常模式，支持多账号":{
+                            "type":"task",
+                            "key":["种树"]
+                    },
+                    "填写COOKIE开始运行":{
+                        "type":"cookie"
+                    },
+                    "取cookie教程":{
+                        "type":"jiaocheng",
+                        "value":"1"
+                    },
+                    "点我快速去登录页面web版":{
+                        "url":"https://login.m.taobao.com/login.htm?redirectURL=https://main.m.taobao.com/mytaobao/index.html "
+                    },
+                    "点我快速抓去页面APP版":{
+                        "url":"taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fh5api.m.taobao.com%2Fh5%2Fmtop.taobao.wireless.amp2.im.message.unreadcount%2F1.0%2F%3Fjsv%3D2.5.1%26appKey%3D12574478%26t%3D1666434168208%26sign%3Dcae548d2f3ba85bdca5546c59e7ba4d6%26api%3Dmtop.taobao.wireless.amp2.im.message.unreadcount%26v%3D1.0%26type%3Djsonp%26dataType%3Djsonp%26callback%3Dmtopjsonp5%26data%3D%257B%257D"
+                    }
+                }
+           }
+
+            
+           
+            
+            
+            
+        },
+
+        "taskList":["种树"]
+                
+    },
+    
+
+    "taskData":{
+           
+            "tag":"tm1111",
+            "common":{
+            "url":"https://gitcode.net/jiutiao/updatejson/-/raw/master/auto/common/tb.txt",
+            "c":"https://gitcode.net/jiutiao/updatejson/-/raw/master/auto/common/tbck.txt"
+            
+            },
+
+            "种树":{
+                "type":"task1",
+              
+                "endpage": "taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+                "main":"taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fm.taobao.com",
+                "endMessage":"种树任务结束",
+                
+                "task":{
+                    "tag":"tm1111",
+                    "scheme":"taobao://m.taobao.com/tbopen/index.html?h5Url=",
+                    "baseurl":"://商品定位.m.tmall.com?deliveryId=占位参数1&sceneId=4276&hd_from_id=100165&fromToken=eP1w8QGUOexjRMbZu8DKHMgpc6UGUgUXUJ&implId=占位参数2",
+                    "ckurl":"://商品定位.m.tmall.com?sceneId=4276&hd_from_id=100165",
+                    "ckitemUrl":"://商品定位.m.tmall.com?deliveryId=占位参数1&sceneId=4276&hd_from_id=100165&implId=占位参数2",
+                    "wait":23,
+                    "wait2":"",
+                    "param":{
+                        "商品定位":["nike","anta","adidas","chanel","dior","biotherm","oppo"]
+                    },
+                    "before":[
+                     
+                    ],
+                    "ckItem":[
+                            
+
+
+                            
+
+
+                           
+                            
+                    ],
+                    "outItem":["34751","34682"],
+                    "item":[
+
+                            
+                            
+
+
+                        ]
+                        
+                }
+            }
+
+
+
+    },
+    "urlArr":[
+        
+    ]
+    
+}
