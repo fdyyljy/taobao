@@ -12,12 +12,18 @@
                 "饿了么红包",
                 "美团红包",
                 "助力.交流 qq群",
-                "提醒：用Aloook的可以手动填写COOKIE"
+                "提醒：用Aloook的可以手动填写COOKIE",
+                "手动"
             
               
                 
             ],
         "mapping" :{
+            "提醒：用Aloook的可以手动填写COOKIE":{
+                
+                "type":"shoudong",
+                "value":"1"
+            },
             "提醒：用Aloook的可以手动填写COOKIE":{
                 
                 "type":"runList",
