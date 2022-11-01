@@ -12,12 +12,21 @@
                 "不会的点我看教程",
                 
                 "助力.交流 qq群",
-                "添加ck持久化账号"
+                "添加ck持久化账号",
+
+                "点我快速去登录页面web版",
+                "点我快速抓去页面APP版"
             
               
                 
             ],
         "mapping" :{
+             "点我快速去登录页面web版":{
+                        "url":"https://login.m.taobao.com/login.htm?redirectURL=https://main.m.taobao.com/mytaobao/index.html "
+                    },
+                    "点我快速抓去页面APP版":{
+                        "url":"taobao://m.taobao.com/tbopen/index.html?h5Url=https%3A%2F%2Fh5api.m.taobao.com%2Fh5%2Fmtop.taobao.wireless.amp2.im.message.unreadcount%2F1.0%2F%3Fjsv%3D2.5.1%26appKey%3D12574478%26t%3D1666434168208%26sign%3Dcae548d2f3ba85bdca5546c59e7ba4d6%26api%3Dmtop.taobao.wireless.amp2.im.message.unreadcount%26v%3D1.0%26type%3Djsonp%26dataType%3Djsonp%26callback%3Dmtopjsonp5%26data%3D%257B%257D"
+                    },
             "不会的点我看教程":{
                 "list":[
                     "ck持久化教程",
@@ -153,7 +162,7 @@
             },
             
 
-           "运行任务-2022.10.25更新":{
+           "旧模式手动填ck运行（ios13用这个）":{
                "tip":"cookie模式是用自己的数据跑任务\n优点是过风险检测\n-----------------------\n不会取cookie的点下面的获取cookie\n-----------------------\n使用cookie模式请确保下载捷径的途径是安全的\n-----------------------\n 快速去页面APP版本无需登录 \n-----------------------\n",
                "list":[
                     "填写COOKIE开始运行",
